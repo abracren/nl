@@ -1,0 +1,36 @@
+/******************************************************************
+Theme Name: Nadando Libre version 2
+Theme URI: nadandolibre.com
+Description: 
+Author: Ariel Kuhn
+Author URI: http://www.estudiomxd.com.ar
+Version: 220
+GitHub Theme URI: https://github.com/abracren/nl
+GitHub Branch:    master
+
+Tags: 
+
+
+------------------------------------------------------------------
+
+This theme uses Sass.
+You will find the .scss files in the /library/scss directory.
+Those files compile to the styles.css found in the library/css directory.
+
+Reccomended tools for working with Sass:
+Recommended
+CodeKit: (Best)
+http://incident57.com/codekit/
+
+Compass App: (Windows / Mac Users)
+http://compass.handlino.com/
+
+---------------------------------------------------------------
+
+Because this file is not being used for styles,
+feel free to use it to leave notes to yourself.
+
+******************************************************************/
+
+
+//loop slider

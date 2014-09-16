@@ -1,0 +1,2227 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic,900,300italic,300,200,200italic);
+
+$mycolor: #0c2d4c;
+$magellan: #252424;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////            MEDIA QUERIES START             ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media only screen {
+    .capTitulo {
+        font-size: 30px !important;
+        font-weight: 600;
+        font-family: 'Titillium Web', sans-serif;
+        line-height: 1em !important;
+        margin-left: 0px !important;
+        margin-top: 10px !important;
+        min-height: 50px !important; 
+    }
+    .capParrafo {
+        font-weight: normal;
+        font-size: 1em !important;
+        margin-left: 0px !important;
+        margin-right: 0 !important;
+    }
+    .slid {
+        //min-height: 250px!important;
+        background-size: 100% auto !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .imagenCurso {
+        img {
+            min-width: 100% !important;
+        }
+    }
+    .curseHeader.express {
+        min-height: 260px !important;
+    }
+    .curseHeader {
+        min-height: 160px !important;
+    }
+    .thinCurse .wideCurse_footer .wideCurseRight .precioExpress {
+        margin-top: 30px;
+        font-size: 1.3em;
+        font-weight: 100;
+    }
+    .express {
+        .expressTitle {
+            top: 10px;
+            width: 90%;
+            p {
+                font-size: .9em;
+                width: 96%;
+            }
+        }
+    }
+    .magellanContainer LI {
+        width: 100% !important;
+        border-bottom: 1px solid #aaaaaa !important;
+        height: 40px;
+    }
+    .curseHeader .cursoTitle p {
+        font-size: 2em;
+    }
+    .curseHeader .cursoTitle {
+        top: 20px;
+    }
+    .capTitulo {
+        font-size: 22px !important;
+        font-weight: 600;
+        font-family: 'Titillium Web', sans-serif;
+        line-height: 1em !important;
+        margin-left: 0px !important;
+        margin-top: 60px !important;
+        min-height: 60px !important;
+    }
+    .capParrafo {
+        font-weight: normal;
+        font-size: 1em !important;
+        margin-left: 0px !important;
+        margin-right: 0 !important;
+    }
+    .slid {
+        min-height: 220px !important;
+        background-size: 100% auto !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+    .cusesDropdown {
+        //display: inherit;
+   
+    }
+    .title-area {
+        LI {
+            font-size: 2em;
+        }
+    }
+    .name {
+        img {
+            margin-top: 5px;
+        }
+    }
+    .owl-pagination {
+        position: absolute;
+        bottom: 25px;
+        z-index: 15;
+        width: 90%;
+        padding-left: 0;
+        margin-left: -10%;
+        list-style: none;
+        text-align: right;
+        left: inherit;
+        right: 15px !important;
+    }
+    .block {
+        text-align: center;
+    }
+    .headerConnect .section-title {
+        text-align: center !important;
+        font-size: 1.9em;
+    }
+    p.cert-cta {
+        text-align: center;
+    }
+    .cursoTitle{
+    p{
+margin-top: -80px!important;
+font-size: 1.5em!important;
+}
+}
+}
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .top-bar-section {
+        UL LI {
+            a {
+                font-size: .81em;
+                padding: 0 18% !important;
+            }
+        }
+    }
+    .connect-btn .connect-btn-hover {
+        font-size: .7em;
+    }
+    .connect-btn .connect-news .connect-news-title {
+        font-size: 1.3em;
+    }
+    .connect-btn .yt-video-play-btn {
+        margin: 50px auto;
+    }
+    .capTitulo {
+        font-size: 30px !important;
+        font-weight: 600;
+        font-family: 'Titillium Web', sans-serif;
+        line-height: 1;
+        margin-left: -30px;
+        margin-right: 30px;
+        margin-top: 10px;
+        min-height: 100px;
+    }
+    .capParrafo {
+        font-weight: normal;
+        font-size: 1.3em !important;
+        margin-left: -30px;
+        margin-right: 30px;
+    }
+    .slid {
+        min-height: 350px !important;
+        background-size: 100% auto !important;
+        background-repeat: no-repeat !important;
+        background-position: center;
+    }
+}
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+@media only screen and (min-width: 64.063em) {
+    .capTitulo {
+        font-size: 50px !important;
+        font-weight: 600;
+        font-family: 'Titillium Web', sans-serif;
+        line-height: 1;
+        margin-left: -30px;
+        margin-right: 30px;
+        margin-top: 10px;
+        min-height: 100px;
+    }
+    .capParrafo {
+        font-weight: normal;
+        font-size: 1.8em !important;
+        margin-left: -30px;
+        margin-right: 30px;
+    }
+    .slid {
+        min-height: 550px;
+        background-size: 100% auto !important;
+        background-repeat: no-repeat !important;
+        background-position: center;
+    }
+     .cursoTitle{
+    p{
+margin-top: 0px!important;
+}
+}
+}
+
+/* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 70em) {
+    .capTitulo {
+        font-size: 50px !important;
+        font-weight: 600;
+        font-family: 'Titillium Web', sans-serif;
+        line-height: 1;
+        margin-left: -30px;
+        margin-right: 30px;
+        margin-top: 10px;
+        min-height: 100px;
+    }
+}
+
+/* min-width 1025px and max-width 1116px, use when QAing large screen-only issues */
+@media only screen and (min-width: 70em) and (max-width: 90em) {
+    .capTitulo {
+        font-size: 50px !important;
+        font-weight: 600;
+        font-family: 'Titillium Web', sans-serif;
+        line-height: 1;
+        margin-left: -30px;
+        margin-right: 30px;
+        margin-top: 10px;
+        min-height: 100px;
+    }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////            MEDIA QUERIES END                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///utils
+.parallelogram {
+    margin: 0 0 0 -20px;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    background: red;
+    overflow: hidden;
+    position: relative;
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url(grayscale.svg);
+    /* Firefox 4+ */
+    filter: gray;
+    /* IE 6-9 */
+}
+
+///////////////////
+h1,h2,h3,h4,h5,h6 {
+    color: $mycolor;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+    font-family: 'alless';
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #333;
+
+}
+.seccionCurso{
+ LI{
+         font-family: 'alless';
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #333;
+
+    } 
+}
+.blogPage {}
+
+#content {
+    background-color: #fff;
+}
+
+#main {
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header {
+    margin-bottom: 0 !important;
+}
+
+.fullWidth {
+    min-width: 100%;
+}
+
+.oooBack {
+    background-color: $magellan;
+    min-height: 80px;
+}
+
+.oooBack2 {
+    //margin-top: 50px;
+    // border-bottom: 2px solid #ddd;
+    //min-height: 100px;
+    border-top: 1px solid #ddd;
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U1ZTVlNSIgc3RvcC1vcGFjaXR5PSIwLjIzIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top, rgba(229, 229, 229, 0.23) 0%, rgba(255, 255, 255, 0) 70%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(229, 229, 229, 0.23)), color-stop(70%, rgba(255, 255, 255, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(229, 229, 229, 0.23) 0%, rgba(255, 255, 255, 0) 70%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(229, 229, 229, 0.23) 0%, rgba(255, 255, 255, 0) 70%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(229, 229, 229, 0.23) 0%, rgba(255, 255, 255, 0) 70%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(229, 229, 229, 0.23) 0%, rgba(255, 255, 255, 0) 70%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3be5e5e5', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-8 */
+}
+
+.tripleTresBack {
+    background-color: #333;
+}
+
+.grayBack {
+    background: #ffffff;
+    /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YyZjJmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(45deg, white 0%, #f2f2f2 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, white), color-stop(100%, #f2f2f2));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, white 0%, #f2f2f2 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, white 0%, #f2f2f2 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, white 0%, #f2f2f2 100%);
+    /* IE10+ */
+    background: linear-gradient(45deg, white 0%, #f2f2f2 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=1 );
+    /* IE6-8 fallback on horizontal gradient */
+}
+
+.darkGrayBack {
+    background-color: white !important;
+}
+
+.aaaBack {
+    background-color: #fff;
+}
+
+.dddBack {
+    background-color: #dddddd !important;
+}
+
+.slid {
+    min-height: 590px;
+    background-size: 100% auto !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+}
+
+
+.slid-01 {
+    // background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl-master/imagesRoot/slid1.jpg);
+}
+
+.slid-02 {
+    //background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl-master/imagesRoot/slid2.jpg);
+}
+
+.owl-pagination {
+    position: absolute;
+    bottom: 25px;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    list-style: none;
+    text-align: right;
+    left: inherit;
+    right: 105px;
+}
+
+.caption-wrapper {
+    background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl/imagesRoot/reg-caption.png) center top no-repeat;
+    //background-color:#fff;
+    min-height: 150px;
+    position: absolute;
+    bottom: 75px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.container1 {
+    width: 1170px;
+}
+
+.capTitulo {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1;
+    margin-left: -30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    min-height: 100px;
+}
+
+.capParrafo {
+    font-weight: normal;
+    font-size: 1.8em;
+    margin-left: -30px;
+    margin-right: 30px;
+}
+
+.owl-page {
+    span {
+        border-radius: 0 !important;
+        background: white !important;
+    }
+}
+
+.owl-page.active {
+    span {
+        background: black !important;
+        border: 1px solid #fff;
+    }
+}
+
+.underSlide {
+    margin: 40px 0;
+    .linkBlock {
+        outline: none;
+        color: #00a2d7;
+        text-decoration: none;
+    }
+    .block {
+        background-color: #fdfdfd;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 700;
+        border: 0px solid #dfdfdf;
+        border-bottom: 10px solid #dfdfdf;
+        border-color: #dfdfdf;
+        //height: 245px;
+        position: relative;
+        text-decoration: none;
+    }
+    .image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .textBlock {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 19px;
+        padding: 0 15px 15px;
+        color: #00A2D7;
+        position: relative;
+        line-height: 1;
+        text-align: center;
+        position: relative;
+        top: 15px;
+        min-height: 100px;
+    }
+    .block:hover {
+        text-decoration: none;
+        border: 0px solid #00a2d7;
+        border-bottom: 10px solid #00a2d7;
+        color: #00a2d7;
+        border-color: #00a2d7;
+    }
+}
+
+.overSlide {
+    margin: 90px 0 40px 0;
+    position: relative;
+    .linkBlock {
+        outline: none;
+        color: #00a2d7;
+        text-decoration: none;
+    }
+    .block {
+        background-color: #fff;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 700;
+        border: 1px solid #dfdfdf;
+        border-bottom: 10px solid #dfdfdf;
+        border-color: #dfdfdf;
+        position: relative;
+        text-decoration: none;
+    }
+    .image {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .textBlock {
+        text-transform: uppercase;
+        font-family: 'Titillium Web', sans-serif;
+        text-align: center;
+        // margin: 10px;
+        border-bottom: 1px solid #ddd;
+        h4 {
+            color: #000033;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            margin-bottom: 0;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        a {
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+    }
+    .textBlock2 {
+        text-align: center;
+        line-height: 1.5em;
+        min-height: 99px;
+        height: 120px;
+        font-weight: normal;
+        padding: 10px;
+        color: #333;
+        font-size: 1.1em;
+        a {
+            text-align: center;
+            color: #333;
+        }
+    }
+}
+
+.headerConnect {
+    padding-top: 40px !important;
+    text-align: right;
+    .section-title {
+        text-align: left !important;
+        font-size: 1.9em;
+        //background-color: #ddd;
+   
+    }
+    .cert-cta {
+        font-size: .9em;
+    }
+    .button {
+        margin-left: 15px;
+        font-size: .8em;
+    }
+}
+
+.connect-btn {
+    display: block;
+    margin-bottom: 30px;
+    //height: 260px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+}
+
+.connect-btn:hover .connect-btn-hover {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity = 100);
+    color: #fff;
+}
+
+.connect-btn .connect-btn-hover {
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    background: #242424;
+    background: rgba(36, 36, 36, 0.8);
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    color: #ffffff;
+    padding: 80px 20px 20px;
+    line-height: 1.1;
+    color: #00a2d7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity = 0);
+    p {
+        margin-top: 0;
+        color: #fff;
+    }
+}
+
+.biggest {
+    max-width: 100% !important;
+}
+
+.connect-btn .connect-news {
+    padding-top: 20px !important;
+}
+
+.connect-btn .connect-news .connect-news-title {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.connect-btn .connect-news .connect-news-title {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.connect-btn .connect-news .connect-news-date {
+    font-size: 15px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.bigger {
+    img {
+        max-width: 100% !important;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.connect-btn-hover {
+    padding-top: 20px !important;
+}
+
+.connect-btn:hover .yt-video-play-btn {
+    opacity: .7;
+}
+
+.connect-btn .yt-video-play-btn {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    right: 35%;
+    left: 35%;
+    margin: 100px auto;
+    opacity: 1;
+    transition: opacity .5s ease;
+}
+
+.cusesDropdown,.expressDropdown,.workDropdown {
+    display: none;
+}
+
+.cursesBig {}
+
+.top-bar ul > li.has-dropdown a:after {
+    content: "";
+    display: none;
+    width: 0;
+    height: 0;
+    border: 0;
+    border-color: none;
+    border-left-style: none;
+    margin-right: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.top-bar-section .has-dropdown > a {
+    padding-right: 35px !important;
+}
+
+.top-bar-section .dropdown::before {
+    border-bottom: 7px solid #f6f6f6;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    content: "";
+    display: inline-block;
+    left: 22.5%;
+    position: absolute;
+    top: -7px;
+}
+
+#searchform .search-query {
+    //padding-left: 29px;
+    background-image: url(http://www.dreamtemplate.com/dreamcodes/web_icons/gray-classic-search-icon.png);
+    background-repeat: no-repeat;
+    background-position: 200px 9px;
+}
+
+#searchform .search-query:focus, .navbar-search .search-query.focused {
+    // padding-left: 30px;
+    background-position: 200px 9px;
+}
+
+.bannerTop {
+    .tituloChicoUp {
+        background: #d9d9d9;
+        font-family: 'Titillium Web', sans-serif;
+        padding: 0;
+        font-size: .9em;
+        font-weight: 700;
+        font-variant: italic;
+        margin-top: 20px;
+    }
+    #searchform {
+        margin-top: 5px;
+    }
+}
+
+.buttonTop {
+    margin-top: 5px;
+    text-align: right !important;
+    .button {
+        margin: 0;
+        background-color: transparent;
+        border: 0;
+        color: #000;
+        font-size: .77em;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 15px 3px;
+    }
+    ul {
+        border: 0;
+    }
+    li {
+        .button {
+            border-left: 0ox solid transparent;
+            border-color: transparent !important;
+        }
+    }
+    .button:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+}
+
+.NombreHeader {
+    font-size: 3em;
+    margin-top: 47px;
+    margin-bottom: 50px;
+}
+
+.midHeader {
+    position: relative;
+}
+
+.logoHeader {
+    top: 10px;
+    img {
+        right: 0% !important;
+        position: absolute;
+        max-width: 30%;
+    }
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer .footer-nav {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.newsletter-label {
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.newsletter-icon {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.footLinks {
+    padding: 40px 0;
+}
+
+.roe {
+    max-width: 90em;
+}
+
+.footer {
+    margin-top: 0 !important;
+}
+
+.sidebar {
+    background: #f6f6f6;
+    height: 100%;
+    border-left: 1px solid #ddd;
+    -webkit-box-shadow: -1px 0px 2px 0px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow: -1px 0px 2px 0px rgba(50, 50, 50, 0.1);
+    box-shadow: -1px 0px 2px 0px rgba(50, 50, 50, 0.1);
+}
+
+.menuMagellan {
+    font-size: 1.3em;
+    //max-width: 20%;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    //padding-left: 10px;
+}
+
+.menuItemMagellan {
+    text-align: center !important;
+}
+
+.oneMenu {
+    // z-index: 99;
+}
+
+.active {
+    color: #ddd !important;
+    //text-decoration: underline !important;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.magellanContainer {
+    background-color: $magellan;
+    //padding: 5px  10px 0px 10px!important;
+    // min-height: 109px;
+    //  max-width: 200px;
+    z-index: 99;
+    LI {
+        text-align: center;
+        font-size: 0.9em;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px 6px;
+        height: 79px;
+        border-left: 1px solid #424242;
+        border-right: 1px solid #2c2c2c;
+    }
+    LI A {
+        color: #949494;
+    }
+}
+
+.backMenu {
+    background-color: $magellan;
+    width: 100%;
+    min-height: 109px;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+    background-color: transparent !important;
+}
+
+#main {
+    h1,h2,h3,h4,h5,h6 {}
+    p {
+        padding: 10px 0;
+    }
+}
+
+.menuBack {
+    background-color: #ddd;
+}
+
+.logoHeader2 {
+    position: absolute;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 25px;
+    left: 17%;
+    max-width: 220px;
+    text-align: center;
+    top: 0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    /* Rectangle 4: */
+    background-image: -o-linear-gradient(-89deg, white 0%, #fafafa 100%);
+    background-image: -moz-linear-gradient(-89deg, white 0%, #fafafa 100%);
+    background-image: -ms-linear-gradient(-89deg, white 0%, #fafafa 100%);
+    background-image: linear-gradient(-179deg, white 0%, #fafafa 100%);
+    -moz-box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    img {
+        text-align: center;
+    }
+}
+
+.tituloHeader {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.soc {}
+
+///////////////////////////////////////
+//Sidebar Cursos
+
+#cursosSidebar {
+    .panel {
+        margin-bottom: 0;
+        border: 0 solid transparent !important;
+        .buyLeyend {
+            text-align: center;
+            font-size: 1.1em;
+        }
+    }
+    .panelMap {
+        background-color: #fff;
+    }
+    .buyItem {
+        color: #fff;
+        background-color: $mycolor !important;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        margin-bottom: 10px;
+        .button {
+            padding: 10px;
+            margin: 0px;
+            border-radius: 4px;
+            background-color: #349EE4;
+        }
+    }
+}
+
+.LeyendPanel {
+    margin-top: 40px;
+    background-color: white !important;
+}
+
+.precioLabel {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.precioNumber {
+    font-size: 2em;
+    //RED PRICE
+    background-color: rgba(47, 182, 182, 0.2);
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.botonCompra {}
+
+.styckPanel {}
+
+.panelMoreCursos {
+    background-color: $mycolor;
+    color: white !important;
+    h1,h3,h4,h5,h6,p {
+        color: #fff;
+    }
+}
+
+.butCiudadPanel {
+    padding: 5px 18px;
+    background-color: transparent;
+}
+
+.butCiudad {
+    background-color: $mycolor;
+    color: #fff;
+    padding: 0;
+    border-radius: 4px;
+    //overflow:hidden;
+    .ciudadSide {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        //background-color: #fff;
+        padding: 10px 10px;
+        color: #333;
+        //margin: 10px;
+        background-repeat: no-repeat;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAAyCAYAAADm1uYqAAAACXBIWXMAAAsTAAALEwEAmpwYAAABNmlDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjarY6xSsNQFEDPi6LiUCsEcXB4kygotupgxqQtRRCs1SHJ1qShSmkSXl7VfoSjWwcXd7/AyVFwUPwC/0Bx6uAQIYODCJ7p3MPlcsGo2HWnYZRhEGvVbjrS9Xw5+8QMUwDQCbPUbrUOAOIkjvjB5ysC4HnTrjsN/sZ8mCoNTIDtbpSFICpA/0KnGsQYMIN+qkHcAaY6addAPAClXu4vQCnI/Q0oKdfzQXwAZs/1fDDmADPIfQUwdXSpAWpJOlJnvVMtq5ZlSbubBJE8HmU6GmRyPw4TlSaqo6MukP8HwGK+2G46cq1qWXvr/DOu58vc3o8QgFh6LFpBOFTn3yqMnd/n4sZ4GQ5vYXpStN0ruNmAheuirVahvAX34y/Axk/96FpPYgAAOjppVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+Cjx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICAgICAgICAgICB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIKICAgICAgICAgICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgICAgICAgICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICAgICAgICAgICB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIgogICAgICAgICAgICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyI+CiAgICAgICAgIDx4bXA6Q3JlYXRvclRvb2w+QWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCk8L3htcDpDcmVhdG9yVG9vbD4KICAgICAgICAgPHhtcDpDcmVhdGVEYXRlPjIwMTQtMDgtMzFUMDg6Mzk6NTgtMDM6MDA8L3htcDpDcmVhdGVEYXRlPgogICAgICAgICA8eG1wOk1ldGFkYXRhRGF0ZT4yMDE0LTA4LTMxVDA4OjM5OjU4LTAzOjAwPC94bXA6TWV0YWRhdGFEYXRlPgogICAgICAgICA8eG1wOk1vZGlmeURhdGU+MjAxNC0wOC0zMVQwODozOTo1OC0wMzowMDwveG1wOk1vZGlmeURhdGU+CiAgICAgICAgIDx4bXBNTTpJbnN0YW5jZUlEPnhtcC5paWQ6NDY3ZGNkNWYtNDBjNC00NDE5LTk0OWItNzhiNTExOTIzOWFlPC94bXBNTTpJbnN0YW5jZUlEPgogICAgICAgICA8eG1wTU06RG9jdW1lbnRJRD5hZG9iZTpkb2NpZDpwaG90b3Nob3A6ZWZmNGM0MmEtNzBhMi0xMTc3LWIxZDItYzhjYjhhZjdkMTMxPC94bXBNTTpEb2N1bWVudElEPgogICAgICAgICA8eG1wTU06T3JpZ2luYWxEb2N1bWVudElEPnhtcC5kaWQ6MjNkNWQ4ZTktNmZjNi00MmZiLWE3OTQtM2NhMGNlY2VhNmYyPC94bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ+CiAgICAgICAgIDx4bXBNTTpIaXN0b3J5PgogICAgICAgICAgICA8cmRmOlNlcT4KICAgICAgICAgICAgICAgPHJkZjpsaSByZGY6cGFyc2VUeXBlPSJSZXNvdXJjZSI+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+Y3JlYXRlZDwvc3RFdnQ6YWN0aW9uPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6aW5zdGFuY2VJRD54bXAuaWlkOjIzZDVkOGU5LTZmYzYtNDJmYi1hNzk0LTNjYTBjZWNlYTZmMjwvc3RFdnQ6aW5zdGFuY2VJRD4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OndoZW4+MjAxNC0wOC0zMVQwODozOTo1OC0wMzowMDwvc3RFdnQ6d2hlbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OnNvZnR3YXJlQWdlbnQ+QWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCk8L3N0RXZ0OnNvZnR3YXJlQWdlbnQ+CiAgICAgICAgICAgICAgIDwvcmRmOmxpPgogICAgICAgICAgICAgICA8cmRmOmxpIHJkZjpwYXJzZVR5cGU9IlJlc291cmNlIj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OmFjdGlvbj5zYXZlZDwvc3RFdnQ6YWN0aW9uPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6aW5zdGFuY2VJRD54bXAuaWlkOjQ2N2RjZDVmLTQwYzQtNDQxOS05NDliLTc4YjUxMTkyMzlhZTwvc3RFdnQ6aW5zdGFuY2VJRD4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OndoZW4+MjAxNC0wOC0zMVQwODozOTo1OC0wMzowMDwvc3RFdnQ6d2hlbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OnNvZnR3YXJlQWdlbnQ+QWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCk8L3N0RXZ0OnNvZnR3YXJlQWdlbnQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDpjaGFuZ2VkPi88L3N0RXZ0OmNoYW5nZWQ+CiAgICAgICAgICAgICAgIDwvcmRmOmxpPgogICAgICAgICAgICA8L3JkZjpTZXE+CiAgICAgICAgIDwveG1wTU06SGlzdG9yeT4KICAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9wbmc8L2RjOmZvcm1hdD4KICAgICAgICAgPHBob3Rvc2hvcDpDb2xvck1vZGU+MzwvcGhvdG9zaG9wOkNvbG9yTW9kZT4KICAgICAgICAgPHBob3Rvc2hvcDpJQ0NQcm9maWxlPkFkb2JlIFJHQiAoMTk5OCk8L3Bob3Rvc2hvcDpJQ0NQcm9maWxlPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICAgICA8dGlmZjpYUmVzb2x1dGlvbj43MjAwMDAvMTAwMDA8L3RpZmY6WFJlc29sdXRpb24+CiAgICAgICAgIDx0aWZmOllSZXNvbHV0aW9uPjcyMDAwMC8xMDAwMDwvdGlmZjpZUmVzb2x1dGlvbj4KICAgICAgICAgPHRpZmY6UmVzb2x1dGlvblVuaXQ+MjwvdGlmZjpSZXNvbHV0aW9uVW5pdD4KICAgICAgICAgPGV4aWY6Q29sb3JTcGFjZT42NTUzNTwvZXhpZjpDb2xvclNwYWNlPgogICAgICAgICA8ZXhpZjpQaXhlbFhEaW1lbnNpb24+MzAwPC9leGlmOlBpeGVsWERpbWVuc2lvbj4KICAgICAgICAgPGV4aWY6UGl4ZWxZRGltZW5zaW9uPjUwPC9leGlmOlBpeGVsWURpbWVuc2lvbj4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgCjw/eHBhY2tldCBlbmQ9InciPz5J77a7AAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAJrSURBVHja7N3Pi01hHMfx9/iP/EpZsbBhVvKzScmCnSxsppSasrKysJKykCwkWciUkiJZoCkRSciPuPIzN+64jsVjShrmnHvOeZ7ndN+v9T3P820Wn+7n1J3vRFEUBZKU1mFgZqkPTRhYkhKbBTYCPw0sSTl7AawAemU+vMy/l6RE5oEdZcPKwJKU0jRwo8oDVkJJKVwANgOV8sfAkhTbE2Al8LHqg1ZCSTF9B7aOElYGlqTYDgB3Rn3YSigpljPAVJ0DDCxJMTwAVgNf6xxiJZTUtj6wpW5YGViSYtgH3G/iIANLUptOAKebOsx3WJLachdYC3wzsCTl7BOwCnjc5KFWQklNK4A9TYeVgSWpDceA820cbCWU1KSbwDpgYGBJytk7wo+an7d1gZVQUhMKYFebYWVgSWrKEeBy25dYCSXVdRXYAAwNLEk5ew0sB97EuMxKKGlUQ2BnrLAysCTVcQi4FvNCK6GkUVwCJqm4RMLAkhTbM8Ly0/exL7YSSqpiAGxPEVYGlqSqDgK3Ul1uJZRU1jnCiq5kDCxJZTwiLJH4nHIIK6GkpfSBbanDysCSVMZ+YC6HQQwsSf9zCjiZyzC+w5L0L/eANb8rYRb8hiVpMV8Iy0/7OQ1lYElazF7gYW5DGViS/nYcOJvjYL7DkvSn24Tlp4MchzOwJC34QPhR89NcB7QSSoLwb2J25xxWBpakBUeBi7kPaSWUdB1YD/wwsCTl7C1hicSrLgxrJZTG1xCY6kpYGVjSeJsBrnRpYCuhNJ5mgU1EWH5qYEmq4yXhvVWva4NbCaXxMk9YItHr4vC/AAAA//8DAHixuU//SW3DAAAAAElFTkSuQmCC);
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+}
+
+.dateSide {
+    padding: 10px;
+}
+
+.panelMoreCursos {
+    margin-bottom: 10px !important;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.buyItem {
+    margin-bottom: 50px !important;
+}
+
+.location,.moreCursos, {
+    margin-bottom: 30px;
+    h4 {
+        color: $mycolor;
+    }
+    h6 {
+        text-transform: uppercase;
+    }
+}
+
+////////////CURSOS HEADER
+
+.curseHeader {
+    min-height: 400px;
+    position: relative;
+    width: 100%;
+    .imagenCurso {
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        img {
+            min-width: 100%;
+        }
+    }
+    .cursoHeaderOverlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        //  background-color: rgba(255,255, 255, 0.3);
+        //background-color: rgba(0, 0, 53, 0.3);
+   
+    }
+    .cursoTitle {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 130px;
+        h1 {
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 4em;
+            font-family: 'futura_md_btbold';
+        }
+        p {
+            //font-family: 'alless';
+            font-family: 'futura_md_btbold';
+            color: white;
+            font-size: 3em;
+            font-weight: 100;
+        }
+    }
+}
+
+//////////////////////////////
+//Cursos express
+.wideCurseRow {
+    margin-bottom: 30px;
+}
+
+.wideCurse {
+    min-height: 430px;
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+    }
+    .wideCurseIn {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 50%;
+        padding: 10px;
+        h1 {
+            font-size: 2em;
+            font-family: 'Titillium Web', sans-serif;
+            font-weight: bold;
+            color: #6B6B6B;
+            margin-bottom: 0;
+        }
+        p {
+            margin-top: 0;
+            font-size: 1.1em;
+            line-height: 1.2em;
+        }
+    }
+}
+
+$express_footer_h: 100px;
+$express_footer_h_small: 80px;
+
+.wideCurse_footer {
+    min-height: $express_footer_h;
+    background-color: #336C95;
+    padding: 0;
+    .wideCurseLeft {
+        background-color: #0C2D4C;
+        height: $express_footer_h;
+        color: #fff;
+        padding-top: 10px;
+        p {
+            font-size: 1em;
+            color: #ddd;
+            margin: 0;
+            padding: 0 !important;
+        }
+    }
+    .wideCurseCenter {
+        background-color: #336C95;
+        padding: 0;
+        height: $express_footer_h;
+        img {
+            height: $express_footer_h;
+        }
+    }
+    .wideCurseRight {
+        background-color: #336C95;
+        height: $express_footer_h;
+        img {
+            width: 50%;
+            position: absolute;
+            bottom: 13px;
+            right: 10px;
+        }
+        .precioExpress {
+            color: #fff;
+            margin-top: 23px;
+            font-size: 3em;
+            font-weight: 100;
+        }
+    }
+}
+
+.thinCurse {
+    //margin-top: 30px;
+    margin-bottom: 30px;
+    .expressHeaderImageSmall {
+        overflow: hidden;
+        height: 150px;
+        img {
+            margin-top: -60px;
+            min-width: 100%;
+        }
+    }
+    .wideCurseIn {
+        background-color: #FBFBFB;
+        padding: 10px;
+    }
+    h3 {
+        font-size: 1.5em;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: bold;
+        color: #6B6B6B;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: .8em;
+    }
+    .requisitos {
+        font-size: .8em;
+        font-weight: bold;
+    }
+    .wideCurse_footer {
+        min-height: $express_footer_h_small;
+        background-color: #336C95;
+        padding: 0;
+        .wideCurseLeft {
+            background-color: #0C2D4C;
+            height: $express_footer_h_small;
+            color: #fff;
+            padding-top: 10px;
+            p {
+                font-size: .81em;
+                color: #ddd;
+                margin: 0;
+                padding: 0 !important;
+            }
+        }
+        .wideCurseCenter {
+            background-color: #336C95;
+            padding: 0;
+            height: $express_footer_h_small;
+            img {
+                height: $express_footer_h_small;
+            }
+        }
+        .wideCurseRight {
+            background-color: #336C95;
+            height: $express_footer_h_small;
+            img {
+                width: 50%;
+                position: absolute;
+                bottom: 13px;
+                right: 10px;
+            }
+            .precioExpress {
+                color: #fff;
+                margin-top: 20px;
+                font-size: 2.3em;
+                font-weight: 100;
+            }
+        }
+    }
+}
+
+.express {
+    .cursoHeaderOverlay {}
+    .expressTitle {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 70%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 100px;
+        -webkit-border-top-left-radius: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        -moz-border-radius-topleft: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        p {
+            color: #fff;
+            padding: 20px 20px 20px 6%;
+            font-weight: 100;
+        }
+        .insideDest {
+            position: absolute;
+            width: 4%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.3);
+            top: 0;
+            -webkit-border-top-left-radius: 10px;
+            -webkit-border-bottom-left-radius: 10px;
+            -moz-border-radius-topleft: 10px;
+            -moz-border-radius-bottomleft: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+    }
+}
+
+.videoBack2 {
+    background: rgb(38, 38, 38);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(38, 38, 38, 1) 0%, rgba(51, 51, 51, 1) 5%, rgba(51, 51, 51, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(38, 38, 38, 1)), color-stop(5%, rgba(51, 51, 51, 1)), color-stop(100%, rgba(51, 51, 51, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(38, 38, 38, 1) 0%, rgba(51, 51, 51, 1) 5%, rgba(51, 51, 51, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(38, 38, 38, 1) 0%, rgba(51, 51, 51, 1) 5%, rgba(51, 51, 51, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(38, 38, 38, 1) 0%, rgba(51, 51, 51, 1) 5%, rgba(51, 51, 51, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(38, 38, 38, 1) 0%, rgba(51, 51, 51, 1) 5%, rgba(51, 51, 51, 1) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#262626', endColorstr='#333333',GradientType=0 );
+    /* IE6-9 */
+}
+.singleCursos{
+    #content{
+background-color: #ddd;
+}
+}
+.videoTop {
+    padding: 50px 0;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+label.newsletter-label {
+    color: #aaa;
+    font-size: .91em;
+}
+
+.videoBottomFlow {
+    padding: 50px 0;
+}
+
+#inner-content {
+    background-color: rgba(255, 255, 255, 0.91);
+    border: 1px solid #ddd;
+    margin-bottom: 1px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.1);
+    box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.1);
+}
+
+.BlogHeader {
+    background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl/imagesRoot/Freestyle2.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+}
+
+.BlogHeader2 {
+    background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl/imagesRoot/wave.svg) no-repeat;
+    background-position: center 490px;
+    position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 4000px;
+    z-index: -1;
+    top: 0;
+}
+
+body {
+    background-color: #ddd;
+}
+
+.blogPages {
+    #content {
+        background-color: transparent !important;
+        margin-top: 100px !important;
+    }
+}
+
+.top-bar {
+    z-index: 99 !important;
+}
+
+.dropDown {
+    //margin-left: -20%;
+}
+
+.cursosMain {
+    #inner-content {
+        background-color: rgba(255, 255, 255, 1);
+        border: 0px solid #ddd;
+        margin-bottom: 1px;
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0);
+        -moz-box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0);
+        box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0);
+    }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////            EQUIPO START                          ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.botonC2 {
+    display: block;
+    margin-bottom: 30px;
+    //width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.figure2 img {
+    max-width: 100%;
+}
+
+.captionH2 {
+    opacity: 1;
+    position: absolute;
+    //background: rgba(80, 179, 184, 0.86);
+    //background: rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 22px;
+    bottom: 0;
+    padding: 15px;
+    height: 100%;
+    width: 80%;
+    z-index: 10;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -o-transition: transform 1s;
+    transition: transform 1s;
+    -webkit-transition: -webkit-transform .5s ease-in;
+    /* Changed here */
+    -moz-transition: -moz-transform .5s ease-in;
+    -o-transition: -o-transform  .5s ease-in;
+    transition: transform .5s ease-in;
+}
+
+.figure2 > div {
+    overflow: hidden;
+}
+
+.figure2 img {
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -o-transition: transform 1s;
+    transition: transform 1s;
+    -webkit-transition: -webkit-transform .5s ease-in;
+    /* Changed here */
+    -moz-transition: -moz-transform .5s ease-in;
+    -o-transition: -o-transform  .5s ease-in;
+    transition: transform .5s ease-in;
+    z-index: 1;
+}
+
+.botonC2:hover img {
+    -webkit-transform: translateX(35%);
+    -moz-transform: translateX(35%);
+    -o-transform: translateX(35%);
+    transform: translateX(35%);
+    -webkit-transition: -webkit-transform .5s ease-in;
+    /* Changed here */
+    -moz-transition: -moz-transform .5s ease-in;
+    -o-transition: -o-transform  .5s ease-in;
+    transition: transform .5s ease-in;
+}
+
+.botonC2:hover {
+    .captionH2 {
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+        -webkit-transition: -webkit-transform .5s linear;
+        /* Changed here */
+        -moz-transition: -moz-transform .5s ease-in;
+        -o-transition: -o-transform .5s ease-in;
+        transition: transform .5s ease-in;
+    }
+}
+
+.captionH2 {
+    h2,h4,h6 {
+        color: #000;
+        line-height: 1em;
+    }
+    h6 {}
+    p {
+        font-size: .6em;
+        color: #000;
+        line-height: 1em;
+        font-family: 'alless';
+    }
+}
+
+// h6.captionH2 {
+//      line-height: 1.3em;
+
+//     }
+.contactoButton {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.teamBioP {}
+
+.headerShadow {
+    //margin-top: 50px;
+    // border-bottom: 2px solid #ddd;
+    min-height: 100px;
+    border-top: 0px solid #dddddd !important;
+    background-color: white !important;
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjQ1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjI2JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM3JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 26%, rgba(0, 0, 0, 0) 37%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.45)), color-stop(26%, rgba(0, 0, 0, 0)), color-stop(37%, rgba(0, 0, 0, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 26%, rgba(0, 0, 0, 0) 37%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 26%, rgba(0, 0, 0, 0) 37%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 26%, rgba(0, 0, 0, 0) 37%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 26%, rgba(0, 0, 0, 0) 37%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#73000000', endColorstr='#00000000',GradientType=0 );
+    /* IE6-8 */
+}
+
+.teamPage,.todosCursos {
+    #content {
+        background-color: white !important;
+        opacity: 1;
+        background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl/imagesRoot/wave.svg) no-repeat;
+        background-position: center 200px;
+        background-size: cover;
+        padding-bottom: 200px;
+    }
+}
+.paddedTeam{
+    padding-left: 33px;
+}
+
+// .avatar-frame,.avatar-frame img{
+//  width: 80%;
+//  height: 26%;
+//  -webkit-border-radius: 50%; /* Saf3+, Chrome
+//  border-radius: 50%; /* Opera 10.5, IE 9
+//  /*-moz-border-radius: 30px;  Disabled for FF1+
+//  }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////            EQUIPO END                             ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////            PRENSA START                          ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.buttonPress {
+    z-index: 0;
+    position: relative;
+    .picturePress {}
+    .captionPress {
+        position: absolute;
+        bottom: 0;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        min-height: 100px;
+        width: 100%;
+        padding: 10px;
+        -ms-transform: rotateX(90deg);
+        -webkit-transform: rotateX(90deg);
+        -o-transform: rotateX(90deg);
+        transform: rotateX(90deg);
+        h5 {
+            color: #fff;
+        }
+    }
+}
+
+.buttonPress:hover {
+    .captionPress {
+        -webkit-animation-duration: .5s;
+        -o-animation-duration: .5s;
+        -moz-animation-duration: .5s;
+        animation-duration: .5s;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-name: mymove;
+        -moz-animation-name: mymove;
+        -o-animation-name: mymove;
+        animation-name: mymove;
+        -webkit-transform-origin: 0% 100%;
+        -moz-transform-origin: 0% 100%;
+        -o-transform-origin: 0% 100%;
+        transform-origin: 0% 100%;
+        -webkit-transition: -webkit-transform .5s ease-in;
+        -moz-transition: -moz-transform .5s ease-in;
+        -o-transition: -o-transform  .5s ease-in;
+        transition: transform .5s ease-in;
+    }
+    .picturePress {
+        // -ms-transform: rotateX(0deg);
+        // -webkit-transform: rotateX(0deg);
+        // -o-transform: rotateX(0deg);
+        // transform: rotateX(0deg);
+        // -webkit-transition: -webkit-transform .5s ease-in;
+        // -moz-transition: -moz-transform .5s ease-in;
+        // -o-transition: -o-transform  .5s ease-in;
+        // transition: transform .5s ease-in;
+   
+    }
+}
+
+@-webkit-keyframes mymove {
+    0% {
+        -ms-transform: rotateX(90deg);
+        -webkit-transform: rotateX(90deg);
+        -o-transform: rotateX(90deg);
+        transform: rotateX(90deg);
+        -webkit-transition: -webkit-transform .5s ease-in;
+        -moz-transition: -moz-transform .5s ease-in;
+        -o-transition: -o-transform  .5s ease-in;
+        transition: transform .5s ease-in;
+    }
+    100% {
+        -ms-transform: rotateX(0deg);
+        -webkit-transform: rotateX(0deg);
+        -o-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+        -webkit-transition: -webkit-transform .5s ease-in;
+        -moz-transition: -moz-transform .5s ease-in;
+        -o-transition: -o-transform  .5s ease-in;
+        transition: transform .5s ease-in;
+    }
+}
+
+
+/* Standard syntax */
+@keyframes mymove {
+    0% {
+        -ms-transform: rotateX(90deg);
+        -webkit-transform: rotateX(90deg);
+        -o-transform: rotateX(90deg);
+        transform: rotateX(90deg);
+        -webkit-transition: -webkit-transform .5s ease-in;
+        /* Changed here */
+        -moz-transition: -moz-transform .5s ease-in;
+        -o-transition: -o-transform  .5s ease-in;
+        transition: transform .5s ease-in;
+    }
+    100% {
+        -ms-transform: rotateX(0deg);
+        -webkit-transform: rotateX(0deg);
+        -o-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+        -webkit-transition: -webkit-transform .5s ease-in;
+        /* Changed here */
+        -moz-transition: -moz-transform .5s ease-in;
+        -o-transition: -o-transform  .5s ease-in;
+        transition: transform .5s ease-in;
+    }
+}
+
+
+.masinfoPress {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////            PRENSA END                             ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=email],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=tel],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=url],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=number],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=password],
+body .gform_wrapper .gform_body .gform_fields .gfield select,
+body .gform_wrapper .gform_body .gform_fields .gfield textarea {
+    font-size:1.3em;
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////            CURSOS     TODOS                    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.cursosTodosPremiumTop{
+ margin-bottom: 30px!important;
+}
+
+.cursosTodosPremiumBottom{
+     margin-bottom: 100px!important;
+
+}
+.captionAllCurses,.captionAllCurses2{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 5px;
+    min-width: 30%;
+    text-align: center;
+}
+.captionAllCurses2{
+opacity: 0;
+}
+.imagenCurso{
+    position: relative;
+}
+.imagenCurso:hover{
+
+.captionAllCurses{
+    opacity:0;
+
+
+}
+.captionAllCurses2{
+    opacity:1;
+
+
+}
+}
+.expressAllCurses{
+    font-size: .7em!important;
+
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////            PRENSA END                             ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////           CURSOS TODOS EN                   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.Parrafo{
+    .parrafo{
+        margin-top:10px;
+        font-size: 1.5em!important;
+    }
+}
+.marginRest{
+    margin-top: -10px;
+
+}
+
+.FraseBack{
+    background-color: #fff;
+    font-size: 1.7em;
+    text-align: center;
+    padding: 60px 0px;
+    border-bottom: 1px solid #ddd;
+    color: #000033;
+    font-weight: 100;
+
+}
+.cursoPremiumFrontPage{
+
+    font-size: 26px!important;
+
+}
+.textBlokcursoPremiumFrontPage{
+padding-bottom: 10px;
+font-size: 18px;
+}
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////           BOOKS START                   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+
+.bookPricePanel{
+    background-color: #fff;
+    padding:0;
+    color:#fff;
+        border:0;
+
+
+
+
+}
+.bookPricedown{
+    margin-top: -20px;
+    padding: 10px!important;
+    background-color: #fff;
+    min-height: 165px;
+    border:0;
+
+}
+.precioSeccion{
+    background-color: #000;
+    padding: 10px;
+
+}
+.getITSeccion,.iconSeccion{
+    margin: 0!important;
+
+}
+.getIt{
+    padding-bottom: 0px;
+
+}
+.precioBookTag{
+    font-size: 2.4em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.iconSeccion{
+padding-top: 10px;
+}
+.kolima{
+padding: 10px;
+margin-left: -10px;
+    img{
+left: -12px;
+}
+}
+.amazon{
+    padding-top: 10px;
+}
+
+.ibooks{
+padding-top:5px; 
+}
+.imagenLibro{
+    img{
+        -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    }
+}
+
+.itemBook{
+margin-bottom: 100px!important;
+}
+.mainPanelBooks{
+    padding:0;
+    background-color:#fff;
+    border-radius: 5px;
+
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////           BOOKS END                                ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////           Online START                                  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+ .underPass{
+text-align: left;
+FORM{
+    width:30%;
+    margin: 0 auto;
+    right:0;
+    left:0;
+}
+.button{
+min-width: 100%;
+}
+input.passFormBox{
+   
+
+}
+input.submitFormPass{
+    
+
+
+
+}
+
+ }
+
+
+.onlineCursoFlow{
+    #inner-content{
+        margin-bottom: 100px!important;
+        padding-bottom: 50px;
+    }
+    .videoFull{
+       
+      //  background-color: #fff000!important;
+    }
+
+}
+.redText{
+color: #ff0000!important;
+//font-weight: bold;
+}
+.centerText{
+    text-align: center;
+}
+.leftText{
+    text-align: left;
+}
+.rightText{
+    text-align: right;
+}
+.blueText{
+    color: #00a2d7;
+;
+
+}
+.whiteText{
+    color:#fff;
+
+}
+
+
+.one_sidebar{
+  
+    background-color:#2ba6cb;
+    h1,h2,h3,h4,h5,h6{
+        color:#fff!important;
+    }
+    p{color:#fff;
+        font-weight: normal;
+        font-size: 1em}
+
+    
+}
+.advisePanel{
+   // background-color: #DA6679;
+    background-color: #107795;
+    border: 0;
+    margin-top: 30px;
+    color:#fff;
+}
+.onlineCursoFlow{
+#inner-content{
+    background-color: #fff;
+}
+}
+.cursoNext{
+
+    position: absolute;
+    right: -40px;
+    top:40px;
+}
+.cursoPrev{
+      position: absolute;
+    left: 40px;
+    top:40px;
+   
+}
+.navigationCursoOnline{
+    a{
+        color:#fff!important;
+        font-size: 1.1em;
+    }
+    }
+.fullCurse{
+    background-color: #fff;
+    padding-top:0px;
+    //padding-bottom: 50px;
+
+}
+.sepaCurso{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #00a2d7;
+    min-height: 50px;
+}
+.footerCurse{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #000;
+    min-height: 100px;
+    color:#fff;
+
+}
+
+$carHeight : 350px;
+
+.slid2 {
+    min-height: $carHeight ;
+    background-size: 100% auto !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+}
+
+.caption-wrapper2 {
+    //background: url(http://estudiomxd.com/nadandolibre.com/wp-content/themes/nl/imagesRoot/reg-caption.png) center top no-repeat;
+    //background-color:rgba(255,255,255,.6);
+    background-color:rgba(0,0,0,.6);
+    min-height: 150px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-bottom: 0px;
+    color:#fff;
+    h1{
+        color:#fff;
+    }
+    p{
+        color:#fff;
+    }
+}
+.imageCourseCaption{
+    //position: absolute;
+    //right: 15%;
+    //top:0;
+    min-height:$carHeight;
+    max-height: $carHeight ;
+    text-align: right;
+    img{
+        height: $carHeight ;
+    }
+}
+.videoBackCursoPnline{
+    //naranja background-color: #ffa368;
+  background-color: #000;
+    padding-top:100px;
+    padding-bottom: 100px;
+
+}
+
+.videoBackCursoPnline2{
+    background-color: #2D6356;
+    padding-top:100px;
+    padding-bottom: 100px;
+
+}
+.destacOnline
+{
+font-size: 1.1em;
+border: 0;
+font-weight: 100;
+background-color: #000!important;
+line-height: 1.3em;
+}
+.overVideoPAr{
+padding-bottom: 5px;
+margin-bottom: 5px;
+font-size: .9em;
+min-height: 75px;
+}
+.overVideoPArNoHeight{
+    min-height: 35px!important;
+
+}
+.overVideoPArNoHeight2{
+    min-height: 5px!important;
+
+}
+.overVideoPArNoHeight3{
+    min-height: 100px!important;
+
+}
+
+.videosPAnel1_1{
+    margin-bottom: 30px!important;
+   background-color: #fafafa!important ;
+   // border-color: #00a2d7;
+    border-radius: 4px;
+    h2{
+        color:#00a2d7;
+        margin-bottom: 30px;
+    }
+    h3{
+        margin-bottom: 10px;
+    }
+}
+.bottompanel1_1{
+
+background-color: #fff;
+color:#ff0000;
+text-align: center;
+margin-top: 30px;
+font-size: 1.1em;
+
+}
+.header1_1{
+    padding:60px 0px 20px 0;
+}
+.header_2{
+    padding-bottom:40px;
+
+}
+.integracionCurso{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////           Online END                                  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+.compraSeccion{
+    min-height: 100px;
+
+display: none;
+}
+.paypalSide{
+text-align: center;
+margin-top: -34px;
+}
+
+
+.paypayformStandard{
+text-align: center;
+font-size: 1.3em;
+background-color: rgb(175, 236, 245);
+padding: 20px;
+border-radius: 4px;
+}
+.cursosTodosPremiumBottom{
+
+h6{
+    min-height: 45px;
+}
+}
