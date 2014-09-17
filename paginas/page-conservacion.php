@@ -126,16 +126,8 @@ $row_count = count($rows);?>
   
 
 
-  $(document).ready(function() {
-    var owl = $("#owl");
- 
-  owl.owlCarousel({
-    navigation : false,
-    singleItem : true,
-    transitionStyle : "fade",
-    autoPlay : 10000,
-
-  });
+ jQuery(document).ready(function() {
+   
  
  
 

@@ -114,7 +114,8 @@ function joints_scripts_and_styles() {
 	wp_deregister_script('jquery');
 	
 	// loads jQuery 2.1.0
-    wp_enqueue_script( 'jquery', get_template_directory_uri() . '/bower_components/foundation/js/vendor/jquery.js', array(), '2.1.0', false );
+    // wp_enqueue_script( 'jquery', get_template_directory_uri() . '/bower_components/foundation/js/vendor/jquery.js', array(), '2.1.0', false );
+    wp_enqueue_script( 'jquery', 'https://code.jquery.com/jquery-2.1.1.min.js', array(), '2.1.0', false );
     
     // modernizr (without media query polyfill)
     wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/bower_components/foundation/js/vendor/modernizr.js', array(), '2.5.3', false );

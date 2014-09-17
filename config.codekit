@@ -101,6 +101,39 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/bower_components\/foundation\/js\/foundation.min.js.bak.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation.min.js.bak.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/min\/foundation.min.js.bak-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation\/js\/foundation.min.js1.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation.min.js1.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/min\/foundation.min.js1-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation\/js\/foundation.min.js_bak.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/foundation.min.js_bak.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/min\/foundation.min.js_bak-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower_components\/foundation\/js\/foundation\/foundation.abide.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -305,6 +338,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/min\/foundation-ck.js",
 		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/min\/min\/foundation-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/foundation\/js\/min\/foundation.min-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/foundation\/js\/min\/foundation.min-ck.js",
+		"outputAbbreviatedPath": "\/bower_components\/foundation\/js\/min\/min\/foundation.min-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -4832,6 +4876,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imagesRoot\/logo old.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47173,
+		"inputAbbreviatedPath": "\/imagesRoot\/logo old.png",
+		"outputAbbreviatedPath": "\/imagesRoot\/logo old.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imagesRoot\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5987,6 +6042,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/page-cursos-expressbig.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-cursos-expressbig.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page-cursos.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -6341,17 +6405,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/screenshot.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16114,
-		"inputAbbreviatedPath": "\/screenshot.png",
-		"outputAbbreviatedPath": "\/screenshot.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/search.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -6415,15 +6468,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/taxonomy-custom_cat.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -6441,7 +6485,7 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "JointsWP Sass",
+	"displayValue": "Nadando Backup Sass",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "harddrive_orange"
 	},
@@ -6574,7 +6618,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/nadandolibre.dev:8888\/",
+	"externalServerAddress": "nadandolibre.dev\/",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathRelativePath": "",
