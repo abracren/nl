@@ -1589,3 +1589,7 @@ body .gform_wrapper .gform_body .gform_fields .gfield textarea {
 
 .cursosTodosPremiumBottom h6 {
   min-height: 45px; }
+
+#content a:hover, #content a:focus {
+  background: transparent;
+  color: #000033; }

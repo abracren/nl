@@ -1,7 +1,7 @@
 3.3.7 (Maptastic Maple)
-e7f21a391deb81597c54831dd5c851f61ca16277
+f27458f08f9059b72da6450cc6b889cc085b040d
 o:Sass::Tree::RootNode:@has_childrenT:
-@linei:@template"ˆ·@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic,900,300italic,300,200,200italic);
+@linei:@template"Û·@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic,900,300italic,300,200,200italic);
 
 $mycolor: #0c2d4c;
 $magellan: #252424;
@@ -2230,7 +2230,13 @@ border-radius: 4px;
 h6{
     min-height: 45px;
 }
-}:@options{ :@children[åo:Sass::Tree::CssImportNode;i;	@;
+}
+
+
+#content a:hover, #content a:focus {
+background: transparent; 
+color: #000033;
+}:@options{ :@children[æo:Sass::Tree::CssImportNode;i;	@;
 [ :@query[ :	@urio: Sass::Script::Tree::Literal	:@filename"\/Applications/AMPPS/www/nadandolibre.dev/wp-content/themes/nl/library/scss/nadando.scss;i:@source_rangeo:Sass::Source::Range	:
 @file@:@end_poso:Sass::Source::Position;i:@offsetiŒ:@start_poso;;i;i:@importero: Sass::Importers::Filesystem:@same_name_warningso:Set:
 @hash{ :
@@ -5750,4 +5756,12 @@ o;=;>o;	;@;o;;i«;i;o;;i«;i;@;i«;?;@;Ao;	;@;o;;i
 [o;2;T;3o;	;@;o;;i³;i;o;;i³;i;@;i³;4o;5;" ;6[o;7;6[o;8;90;@‰…;6[o;B	;@‰…;i³;.["h6;C0;i³;;o;;{ ;o;	;@‰…;o;;i;i;o;;i;i;0;i³;<["h6;	@;
 [o;=;>o;	;@;o;;i´;i;o;;i´;i;@;i´;?;@;Ao;	;@;o;;i´;i;o;;i´;i
 ;@;	@;
-[ ;.["min-height;o;	;@;@œ…;@ …;@;#i ;o;;i´;o;	;@;o;;i´;i;o;;i´;i;@;o;;	@;!;";"	45px;o;	;@;o;;i³;i;o;;i³;i;@;#i ;o;	;@;o;;i±;i;o;;i±;i;@;#i ;o;	;@;o;;i;i;o;;i;i;@
+[ ;.["min-height;o;	;@;@œ…;@ …;@;#i ;o;;i´;o;	;@;o;;i´;i;o;;i´;i;@;o;;	@;!;";"	45px;o;	;@;o;;i³;i;o;;i³;i;@;#i ;o;	;@;o;;i±;i;o;;i±;i;@;#i o;2;T;3o;	;@;o;;i¹;i);o;;i¹;i;@;i¹;4o;5;" ;6[o;7;6[o;8;90;@¶…;6[o;];@¶…;i¹;.["content;i¹;;o;;{ ;o;	;@¶…;o;;i;i;o;;i;i;0o;8;90;@¶…;6[o;B	;@¶…;i¹;.["a;C0o;^
+;@¶…;i¹;_0;.["
+hover;`;a;i¹;;o;;{ ;o;	;@¶…;o;;i;i;o;;i;i;0o;7;6[o;8;90;@¶…;6[o;];@¶…;i¹;.["content;i¹;;o;;{ ;o;	;@¶…;o;;i;i ;o;;i;i;0o;8;90;@¶…;6[o;B	;@¶…;i¹;.["a;C0o;^
+;@¶…;i¹;_0;.["
+focus;`;a;i¹;;o;;{ ;o;	;@¶…;o;;i;i(;o;;i;i!;0;i¹;<["'#content a:hover, #content a:focus;	@;
+[o;=;>o;	;@;o;;iº;i;o;;iº;i;@;iº;?;@;Ao;	;@;o;;iº;i;o;;iº;i;@;	@;
+[ ;.["background;o;	;@;@ï…;@ó…;@;#i ;o;;iº;o;	;@;o;;iº;i;o;;iº;i;@;o;;	@;!;";"transparento;=;>o;	;@;o;;i»;i;o;;i»;i;@;i»;?;@;Ao;	;@;o;;i»;i;o;;i»;i;@;	@;
+[ ;.["
+color;o;	;@;@ †;@†;@;#i ;o;;i»;o;	;@;o;;i»;i;o;;i»;i;@;o;;	@;!;";"#000033;o;	;@;o;;i¹;i);o;;i¹;i;@;#i ;o;	;@;o;;i;i;o;;i;i;@

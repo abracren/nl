@@ -241,7 +241,7 @@ CursosOpen = 0;
     autoPlay : 10000,
 
   });
-   var owl = JQuery("#owl");
+   var owl = jQuery("#owl");
  
   owl.owlCarousel({
     navigation : false,
