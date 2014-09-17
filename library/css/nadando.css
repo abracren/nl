@@ -1593,3 +1593,15 @@ body .gform_wrapper .gform_body .gform_fields .gfield textarea {
 #content a:hover, #content a:focus {
   background: transparent;
   color: #000033; }
+
+li {
+  font-size: 1.1em; }
+
+p.byline {
+  font-size: 0.8em; }
+
+p.tags {
+  border-bottom: 1px solid #DDDDDD; }
+
+header.article-header {
+  margin-bottom: 40px; }

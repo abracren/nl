@@ -1,7 +1,7 @@
 3.3.7 (Maptastic Maple)
-f27458f08f9059b72da6450cc6b889cc085b040d
+0ef1e4bd037f4876471591bd5dc829821eb68396
 o:Sass::Tree::RootNode:@has_childrenT:
-@linei:@template"Û·@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic,900,300italic,300,200,200italic);
+@linei:@template"t¸@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic,900,300italic,300,200,200italic);
 
 $mycolor: #0c2d4c;
 $magellan: #252424;
@@ -2236,7 +2236,22 @@ h6{
 #content a:hover, #content a:focus {
 background: transparent; 
 color: #000033;
-}:@options{ :@children[æo:Sass::Tree::CssImportNode;i;	@;
+}
+
+  
+li {
+font-size: 1.1em;
+}
+p.byline {
+font-size: 0.8em;
+}
+p.tags {
+border-bottom: 1px solid #DDDDDD;
+}
+
+header.article-header {
+margin-bottom: 40px;
+}:@options{ :@children[êo:Sass::Tree::CssImportNode;i;	@;
 [ :@query[ :	@urio: Sass::Script::Tree::Literal	:@filename"\/Applications/AMPPS/www/nadandolibre.dev/wp-content/themes/nl/library/scss/nadando.scss;i:@source_rangeo:Sass::Source::Range	:
 @file@:@end_poso:Sass::Source::Position;i:@offsetiŒ:@start_poso;;i;i:@importero: Sass::Importers::Filesystem:@same_name_warningso:Set:
 @hash{ :
@@ -5764,4 +5779,14 @@ focus;`;a;i¹;;o;;{ ;o;	;@¶…;o;;i;i(;o;;i;i!;0;i¹;<["'
 [o;=;>o;	;@;o;;iº;i;o;;iº;i;@;iº;?;@;Ao;	;@;o;;iº;i;o;;iº;i;@;	@;
 [ ;.["background;o;	;@;@ï…;@ó…;@;#i ;o;;iº;o;	;@;o;;iº;i;o;;iº;i;@;o;;	@;!;";"transparento;=;>o;	;@;o;;i»;i;o;;i»;i;@;i»;?;@;Ao;	;@;o;;i»;i;o;;i»;i;@;	@;
 [ ;.["
-color;o;	;@;@ †;@†;@;#i ;o;;i»;o;	;@;o;;i»;i;o;;i»;i;@;o;;	@;!;";"#000033;o;	;@;o;;i¹;i);o;;i¹;i;@;#i ;o;	;@;o;;i;i;o;;i;i;@
+color;o;	;@;@ †;@†;@;#i ;o;;i»;o;	;@;o;;i»;i;o;;i»;i;@;o;;	@;!;";"#000033;o;	;@;o;;i¹;i);o;;i¹;i;@;#i o;2;T;3o;	;@;o;;i¿;i	;o;;i¿;i;@;i¿;4o;5;" ;6[o;7;6[o;8;90;@†;6[o;B	;@†;i¿;.["li;C0;i¿;;o;;{ ;o;	;@†;o;;i;i;o;;i;i;0;i¿;<["li;	@;
+[o;=;>o;	;@;o;;iÀ;i;o;;iÀ;i;@;iÀ;?;@;Ao;	;@;o;;iÀ;i;o;;iÀ;i;@;	@;
+[ ;.["font-size;o;	;@;@*†;@.†;@;#i ;o;;iÀ;o;	;@;o;;iÀ;i;o;;iÀ;i;@;o;;	@;!;";"
+1.1em;o;	;@;o;;i¿;i	;o;;i¿;i;@;#i o;2;T;3o;	;@;o;;iÂ;i;o;;iÂ;i;@;iÂ;4o;5;" ;6[o;7;6[o;8;90;@A†;6[o;B	;@A†;iÂ;.["p;C0o;:;@A†;iÂ;.["byline;iÂ;;o;;{ ;o;	;@A†;o;;i;i;o;;i;i;0;iÂ;<["p.byline;	@;
+[o;=;>o;	;@;o;;iÃ;i;o;;iÃ;i;@;iÃ;?;@;Ao;	;@;o;;iÃ;i;o;;iÃ;i;@;	@;
+[ ;.["font-size;o;	;@;@W†;@[†;@;#i ;o;;iÃ;o;	;@;o;;iÃ;i;o;;iÃ;i;@;o;;	@;!;";"
+0.8em;o;	;@;o;;iÂ;i;o;;iÂ;i;@;#i o;2;T;3o;	;@;o;;iÅ;i;o;;iÅ;i;@;iÅ;4o;5;" ;6[o;7;6[o;8;90;@n†;6[o;B	;@n†;iÅ;.["p;C0o;:;@n†;iÅ;.["	tags;iÅ;;o;;{ ;o;	;@n†;o;;i;i;o;;i;i;0;iÅ;<["p.tags;	@;
+[o;=;>o;	;@;o;;iÆ;i&;o;;iÆ;i;@;iÆ;?;@;Ao;	;@;o;;iÆ;i;o;;iÆ;i;@;	@;
+[ ;.["border-bottom;o;	;@;@„†;@ˆ†;@;#i ;o;;iÆ;o;	;@;o;;iÆ;i&;o;;iÆ;i;@;o;;	@;!;";"1px solid #DDDDDD;o;	;@;o;;iÅ;i;o;;iÅ;i;@;#i o;2;T;3o;	;@;o;;iÉ;i;o;;iÉ;i;@;iÉ;4o;5;" ;6[o;7;6[o;8;90;@›†;6[o;B	;@›†;iÉ;.["header;C0o;:;@›†;iÉ;.["article-header;iÉ;;o;;{ ;o;	;@›†;o;;i;i;o;;i;i;0;iÉ;<["header.article-header;	@;
+[o;=;>o;	;@;o;;iÊ;i;o;;iÊ;i;@;iÊ;?;@;Ao;	;@;o;;iÊ;i;o;;iÊ;i;@;	@;
+[ ;.["margin-bottom;o;	;@;@±†;@µ†;@;#i ;o;;iÊ;o;	;@;o;;iÊ;i;o;;iÊ;i;@;o;;	@;!;";"	40px;o;	;@;o;;iÉ;i;o;;iÉ;i;@;#i ;o;	;@;o;;i;i;o;;i;i;@
