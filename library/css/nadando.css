@@ -224,6 +224,9 @@ p {
   font-size: 1.1em;
   color: #333; }
 
+strong {
+  font-size: 1.1em; }
+
 #content {
   background-color: #fff; }
 
