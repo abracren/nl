@@ -44,7 +44,7 @@
 			
 					
 					
-					    	<?php get_template_part( 'partials/loop', 'courseinit' ); ?>
+					    	<?php get_template_part( 'partials/loop', 'courseInit' ); ?>
 					    					
 					    <?php endwhile; else : ?>
 					

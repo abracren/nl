@@ -2,17 +2,7 @@
 						
 <article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/WebPage">
 
-<div id="compraSeccion" class=" compraSeccion seccionCurso" style="">
 
-	<h2>Compra</h2>
-	<?php $varrForm=get_field('formulario'); ?>
-						<?php //echo $varrForm;?>
-						<?php// echo do_shortcode('[gravityform id="'.$varrForm.'", ajax=true] ');?>
-	<?php gravity_form($varrForm, false, false, false, '', true); ?>
-
-
-
-</div>
 	
   <?php if( have_rows('seccion') ):
 

@@ -68,7 +68,7 @@
 							.	<div class=" logoHeader2" style=""><a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/imagesRoot/logo2.png"/></a></div>
 
 							</div>
-							<div class="medium-4 columns">
+							<div class="medium-3 columns">
 								<div class="tituloHeader"> NADANDO LIBRE</div>
 							</div>
 							<div class="medium-3 columns hide-for-medium">
@@ -82,6 +82,18 @@
 									    <li><a class="soc-facebook" href="https://www.facebook.com/nadandolibre"></a></li>
 									    <li><a class="soc-youtube soc-icon-last" href="https://www.youtube.com/user/nadandolibre"></a></li>
 								</ul>
+							</div>
+							<div class="medium-1 large-1 columns">
+								<?php
+								if ( is_user_logged_in() ) {?>
+									<a href="/wp-login.php" class="button tiny" style="margin-top:5px; min-height:43px;padding-top:15px">Ingresar</a>
+									<?php
+								} else {?>
+									<a href="/wp-login.php" class="button tiny">Ingresar</a>
+								<?php } ?>
+								
+
+
 							</div>
 							<!-- <div class="medium-4 columns buttonTop">
 								<ul class="button-group">

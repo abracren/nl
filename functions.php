@@ -104,8 +104,28 @@ function my_theme_add_editor_styles() {
 }
 add_action( 'init', 'my_theme_add_editor_styles' );
 
+add_action( 'admin_bar_menu', 'curso_link_main', 999 );
 
+function curso_link_main( $wp_admin_bar ) {
+	$args = array(
+		'id'    => 'curso_online',
+		'title' => 'Ingreso Curso Online',
+		'href'  => 'http://www.nadandolibre.com/module-1/753/',
+		'meta'  => array( 'class' => 'my-toolbar-page' )
+	);
+	$wp_admin_bar->add_node( $args );
+}
 
+function my_translatorr2()
+{
+  $your_content=ob_get_contents();
+  $your_content= preg_replace('/\<label for="user_login"\>(.*?)\<br/',        'Nombre de Usuario: ',$content);
+  $your_content= preg_replace('/\<label for="user_pass"\>(.*?)\<br/',        'Clave:',$content);
+
+  ob_get_clean();
+  echo $our_content;
+}
+add_action( 'login_form', 'my_translatorr2' );
 
 
 

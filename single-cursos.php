@@ -138,22 +138,39 @@ if($row_count>8){
 <?php get_footer(); ?>
 
 <script type="text/javascript">
-$(document).ready(function(){
-	$(document).scrollTop(0);
+jQuery(document).on('close.fndtn.reveal', '[data-reveal]', function () {
+  var modal = jQuery(this);
+  console.log(modal);
+  jQuery(".revealPPButton").hide();
+  jQuery('.aceptButtonDiv').fadeIn('', function() {});
 });
-$('#closeButton').foundation('reveal', 'close');
-$(".cDiv").hide();
-$("select#input_11_5").change(function() {
+jQuery(".revealPPButton").hide();
+jQuery('.aceptButton').click(function(){
+	jQuery('.aceptButtonDiv').fadeOut('', function() {
+		jQuery(".revealPPButton").fadeIn('slow', function() {
+			
+		});
+		
+	});
+
+
+})
+jQuery(document).ready(function(){
+	jQuery(document).scrollTop(0);
+});
+jQuery('#closeButton').foundation('reveal', 'close');
+jQuery(".cDiv").hide();
+jQuery("select#input_11_5").change(function() {
 	//console.log('change');
-            var _div_id = $(this).val();
-            $(".cDiv").hide();
+            var _div_id = jQuery(this).val();
+            jQuery(".cDiv").hide();
             var endDiv = ('#'+_div_id)
             //console.log(endDiv);
 
-            $(endDiv).toggle();
+            jQuery(endDiv).toggle();
         }); 
 
 
-$(document).foundation();
+jQuery(document).foundation();
 
 </script>

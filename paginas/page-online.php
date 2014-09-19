@@ -153,8 +153,8 @@ Template Name: online-1-0
 	
 
 
-	$(document).ready(function() {
-		var owl = $("#owl");
+	jQuery(document).ready(function() {
+		var owl = jQuery("#owl");
  
   owl.owlCarousel({
     navigation : false,
@@ -166,6 +166,6 @@ Template Name: online-1-0
  
 
 });
-	    $('.equalSize').matchHeight();
+	    jQuery('.equalSize').matchHeight();
 
 </script>

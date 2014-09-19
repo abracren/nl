@@ -1005,7 +1005,11 @@ label {
     padding: 5px 18px;
     background-color: transparent;
 }
+.butCiudadPanelExpress{
+    padding: 5px  18px 0px 18px;
+    //background-color: #ddd;
 
+}
 .butCiudad {
     background-color: $mycolor;
     color: #fff;
@@ -1027,7 +1031,20 @@ label {
         background-size: 100% 100%;
     }
 }
+.butCiudadExpress{
+        background-color: #ddd!important;
+        //margin-bottom: 4px!important;
+        height: 36px;
 
+
+}
+.butCiudad2{
+        //background-color: #ddd!important;
+        //margin-bottom: 4px!important;
+        height: 35px!important;
+
+
+}
 .dateSide {
     padding: 10px;
 }
@@ -2248,4 +2265,15 @@ border-bottom: 1px solid #DDDDDD;
 
 header.article-header {
 margin-bottom: 40px;
+}
+.buttonHolderCursos{
+    text-align: right;
+padding-right: 0;
+}
+
+
+
+.butExpress:hover{
+    background: rgba(7, 195, 195, 0.61)!important;
+color: #FFFFFF!important;
 }
